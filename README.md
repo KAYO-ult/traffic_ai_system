@@ -1,4 +1,4 @@
-traffic AI system (YOLO-based vehicle detection, 4-lane video processing, signal logic, and number plate OCR) usually relies on a small ecosystem of Python libraries. Each one plays a different role in the pipeline: computer vision, deep learning, OCR, and utilities.
+Traffic AI system (YOLO-based vehicle detection, 4-lane video processing, signal logic, and number plate OCR) usually relies on a small ecosystem of Python libraries. Each one plays a different role in the pipeline: computer vision, deep learning, OCR, and utilities.
 
 Think of the system as a little factory. Video frames go in, neural networks inspect them, text readers decode number plates, and OpenCV draws boxes and dashboards.
 
