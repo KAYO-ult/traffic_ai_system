@@ -2,13 +2,13 @@ import streamlit as st
 import json
 import time
 
-st.title("AI Traffic Management Dashboard")
+st.title("AI Smart Traffic Control Dashboard")
 
 placeholder = st.empty()
 
 while True:
 
-    with open("data/traffic_data.json","r") as f:
+    with open("data/traffic_data.json") as f:
         data = json.load(f)
 
     with placeholder.container():
